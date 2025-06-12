@@ -16,9 +16,9 @@ export interface Contact {
     id: number;
     phoneNumber: string | null;
     email: string | null;
-    lindedId:number | null;
-    linkprecedence: "primary" | "secondary";
+    linkedId:number | null;
+    linkPrecedence: "primary" | "secondary" | null;
     createdAt: Date;
     updatedAt: Date;
     deletedAt: Date | null;
-}
+} 
